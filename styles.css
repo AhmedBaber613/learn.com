@@ -1,0 +1,82 @@
+xmp {
+    background-color: #cac6c6;
+    padding: 4px;
+}
+
+.h2 {
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.h21 {
+    font-family: monospace;
+    font-size: 25px;
+    margin-left: 32px;
+    color: white;
+    margin-bottom: 28px;
+    margin-top: 32px;
+}
+
+div.container {
+    font-family: sans-serif;
+    padding-left: 30px;
+    float: right;
+    width: 1500px;
+    border-radius: 15px;
+    color: #272727;
+    text-align: left;
+    background-color: white;
+    padding-bottom: 150px;
+}
+
+.a:hover {
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #ffffff69;
+    align-content: baseline;
+}
+
+.h1 {
+    font-family: monospace;
+    margin-left: 32px;
+    margin-top: 35px;
+    font-size: 30px;
+    color: #dd7700;
+}
+
+body {
+    background-color: rgb(78, 74, 74);
+}
+
+.a:active {
+    font-size: 20px;
+    color: #ffffff;
+    color: #ec6a00;
+}
+
+.a {
+    line-height: 27px;
+    margin-top: 32px;
+    font-family: sans-serif;
+    margin-left: 40px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.a:visited {
+    margin-right: 19px;
+    font-size: 4px;
+    color: #ffffff;
+    align-content: baseline;
+}
+
+html {
+    padding-bottom: 22px;
+}
+
+span.intro {
+    background-color: #cac6c6;
+    font-family: monospace;
+    padding: 2px;
+}

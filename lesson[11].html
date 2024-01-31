@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <meta charset="utf-8">
+
+        <header><title>Ahmed's Easy HTML/CSS Tutorial</title><link rel="stylesheet" href="styles.css"></header>
+
+        <h1 class="h1">Ahmed's Easy HTML/CSS Tutorial</h1>
+        <div class="container">
+            <p>
+                <h2 class="h2">Changing the Font</h2>
+
+                One other thing you might want to change is the font used on the page. 
+                The CSS property for font is called font-family. You can give it the name of a font in quotes, for example:
+                <br>
+                <xmp>body {
+                    font-family: 'Arial';
+                  }
+                </xmp>
+                <br>
+                And it will use that font if it’s on the computer of whoever is visiting your website. You can also give it a type of font (a generic family of fonts):
+                <br>
+                <xmp>
+                    body {
+                        font-family: sans-serif; 
+                    }
+                </xmp>
+                <br>
+                And the browser will pick a font in that family. The font families you can choose from are:
+                <br>
+                <ul>
+                    <li>serif - fonts with serifs (the little lines on the ends of letters), such as Times New Roman.</li> <br>
+                    <li>sans-serif - fonts without serifs, such as Arial</li> <br>
+                    <li>cursive - a “script” font where letters look a bit like handwriting</li> <br>
+                    <li>monospace - a font where every letter has the same width (great for code!)</li> <br>
+                </ul>
+                Finally, you can give the font-family property a list of fonts separated by commas. When you do this, 
+                it will try every font down the list. If the browser doesn’t have the first font, 
+                then it will move to the next one. For example:
+                <xmp>
+                    body {
+                        font-family: 'Courier New', monospace;
+                    }
+                </xmp>
+
+                What this does is tell the browser to first look for the Courier New font. But if your website 
+                visitor’s computer doesn’t have the Courier New font, then it moves on to the next font family in the list, 
+                “monospace” - and simply picks a monospace font.
+                <br><br>
+                Helpful Tip This list of fonts is called a font stack. The website Modern Font Stacks has a 
+                whole bunch of good font stacks for you to choose from. Simply copy and paste one of their font stacks and you’re all set!
+                <br><br>
+                Try it yourself: Try adding a font to your my_webpage.html by adding font-family CSS to the body tag. You can 
+                use a font stack from Modern Font Stacks, or make up your own!
+                <br><br>
+                Font size
+                <br>
+                One last thing before we move on: changing the font size! This is really simple: the property is simply 
+                called font-size and it can be specified in a number of ways, including pixels or points. For example, if you wanted 12 point font:
+
+                <xmp>
+                    body {
+                        font-size: 12pt;
+                    }
+                </xmp>
+                And that’s it!
+            </p>
+        </div>
+
+           
+
+        <nav>
+            <a href="lesson[1].html" class="a">intro to HTML</a><br>
+            <a href="lesson[2].html" class="a">HTML Tags: An Introduction</a><br>
+            <a href="lesson[3].html" class="a">A Smattering of Tags</a><br>
+            <a href="lesson[4].html" class="a">HTML Attributes</a><br>
+            <a href="lesson[5].html" class="a">Stand-alone Tags</a><br>
+            <a href="lesson[6].html" class="a">Structure of an HTML Page</a><br>
+
+            <h2 class="h21">CSS</h2>
+
+            <a href="lesson[7].html" class="a">Intro to CSS</a><br>
+            <a href="lesson[8].html" class="a">Coding with Style</a><br>
+            <a href="lesson[9].html" class="a">Adding CSS to the Page</a><br>
+            <a href="lesson[10].html" class="a">Body Styles</a><br>
+            <a href="lesson[11].html" class="a">Changing the Font</a><br>
+            <a href="lesson[12].html" class="a">Classes and IDs</a><br>
+            <a href="lesson[13].html" class="a">Border, Margin, and Padding</a><br>
+            <a href="lesson[14].html" class="a">Side by Side Divs</a><br>
+            <a href="lesson[15].html" class="a">Putting it All Together</a><br>
+
+            <h2 class="h21">Appedix</h2>
+
+            <a href="lesson[16].html" class="a">Color Codes Explained</a><br>
+        </nav>
+    </body>
+</html>

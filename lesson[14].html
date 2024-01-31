@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <meta charset="utf-8">
+
+        <header><title>Ahmed's Easy HTML/CSS Tutorial</title><link rel="stylesheet" href="styles.css"></header>
+
+        <h1 class="h1">Ahmed's Easy HTML/CSS Tutorial</h1>
+        <div class="container">
+            <p>
+                <h2 class="h2">Side by Side Divs</h2>
+
+                There is just one last thing before we conclude our basic HTML and CSS tutorial. 
+                So far, the header, content, and footer of our page are all on top of each 
+                other. But what if we want to have two things side by side? For example, 
+                what if we wanted to add a sidebar, next to the content, that is beside it?
+                <br><br>
+                The strategy we’ll do is this:
+                <br>
+                <ol>
+                    <li>Put the sidebar and content inside a new div</li>
+                    <li>Set some CSS on this new div to tell it, “put the things inside you side-by-side instead of stacked vertically”</li>
+                </ol>
+                <br>
+                So let’s look at how to do this. First, we’ll put the sidebar and content 
+                in their own div, which I’ll give an ID of “main” to in order to be able to select it:
+                <br><br>
+                Now, we need to put some CSS code on the main div that says, 
+                “put everything inside of you side-by-side”. This is the code that will do this:
+                <br>
+                <xmp>
+                    #main {
+                        display: flex;
+                    }
+                </xmp>
+                <br>
+                In short, this enables something called 
+                “flexbox” on the div, which is a modern way to arrange 
+                layouts in CSS. By default, something with display: flex will 
+                display everything in it side-by-side.
+                <br><br>
+                Since this is a basic tutorial, we won’t delve any further into flexbox. 
+                I just wanted to give you this piece of code so that you have a way of arranging divs 
+                side-by-side in your pages for now. If you would like to 
+                learn more about flexbox, I recommend checking out the awesome 
+                interactive tutorial Flexbox Froggy.
+            </p>
+        </div>
+
+           
+
+        <nav>
+            <a href="lesson[1].html" class="a">intro to HTML</a><br>
+            <a href="lesson[2].html" class="a">HTML Tags: An Introduction</a><br>
+            <a href="lesson[3].html" class="a">A Smattering of Tags</a><br>
+            <a href="lesson[4].html" class="a">HTML Attributes</a><br>
+            <a href="lesson[5].html" class="a">Stand-alone Tags</a><br>
+            <a href="lesson[6].html" class="a">Structure of an HTML Page</a><br>
+
+            <h2 class="h21">CSS</h2>
+
+            <a href="lesson[7].html" class="a">Intro to CSS</a><br>
+            <a href="lesson[8].html" class="a">Coding with Style</a><br>
+            <a href="lesson[9].html" class="a">Adding CSS to the Page</a><br>
+            <a href="lesson[10].html" class="a">Body Styles</a><br>
+            <a href="lesson[11].html" class="a">Changing the Font</a><br>
+            <a href="lesson[12].html" class="a">Classes and IDs</a><br>
+            <a href="lesson[13].html" class="a">Border, Margin, and Padding</a><br>
+            <a href="lesson[14].html" class="a">Side by Side Divs</a><br>
+            <a href="lesson[15].html" class="a">Putting it All Together</a><br>
+
+            <h2 class="h21">Appedix</h2>
+
+            <a href="lesson[16].html" class="a">Color Codes Explained</a><br>
+        </nav>
+    </body>
+</html>

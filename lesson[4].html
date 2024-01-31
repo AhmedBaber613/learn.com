@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <meta charset="utf-8">
+
+        <header><title>Welcome! | Ahmed's Easy HTML/CSS Tutorial</title><link rel="stylesheet" href="styles.css"></header>
+
+        <h1 class="h1">Ahmed's Easy HTML/CSS Tutorial</h1>
+        <div class="container">
+            <p>
+                <h2 class="h2">HTML Attributes</h2>
+
+                Next, let’s talk about the a (or anchor) tag. With this tag, we introduce something 
+                called HTML attributes, which are certain traits that a tag can have. 
+                HTML attributes go inside of the 
+                opening tag and always have the syntax of ATTRIBUTE="VALUE", where the value is 
+                always in quotes. This will make more sense if we look at an example.
+                <br><br>
+                The anchor tag is what we use for links. It has an 
+                attribute called href, or hyper reference - the URL of the page that the link 
+                goes to. For example, take a look at the following code:
+                <br><br>
+                <xmp><span><a href="http://easyhtmlcss.com">Click Here</a></span></xmp>
+                <br><br>
+                What this will render is a link that says “Click Here”. 
+                If you click the link, you’ll be taken to whatever URL is the value of href - 
+                in this case, the home page of this tutorial!
+                <br><br>
+                Now, you can try it. In the last section, you saved an HTML file 
+                my_webpage.html to your computer. Now, save a new file called about_me.html 
+                with the following contents:
+                <br><br>
+                <xmp><span><h1>About me</h1>
+                    <p>I'm learning HTML and CSS!</p>
+                </span></xmp>
+                Make sure to save about_me.html in the same folder as where you have my_webpage.html.
+                <br><br>
+                Now, let’s learn how to link to your new page. In my_webpage.html, add a new line somewhere in the file that says:
+                <br><br>
+                <xmp><span><a href="about_me.html">About Me</a></span></xmp>
+                Save it and open my_webpage.html in your web browser. Now, if you click the link, it will take you to your new about page.
+                <br><br>
+                NOTE: The value of the href in this example is about_me.html, a relative path. Instead of containing the full 
+                URL, relative paths are 
+                relative to whatever folder you are currently in. In this case, 
+                it will look for an about_me.html file in the same folder. So this allows you to link to a different 
+                HTML file in the same folder.
+                <br><br>
+                Don’t worry if this is still a little confusing. We will go over attributes a little more in the next section, which should make it clearer.
+            </p>
+        </div>
+
+        <h2 class="h21">HTML</h2>
+
+        <nav>
+            <a href="lesson[1].html" class="a">intro to HTML</a><br>
+            <a href="lesson[2].html" class="a">HTML Tags: An Introduction</a><br>
+            <a href="lesson[3].html" class="a">A Smattering of Tags</a><br>
+            <a href="lesson[4].html" class="a">HTML Attributes</a><br>
+            <a href="lesson[5].html" class="a">Stand-alone Tags</a><br>
+            <a href="lesson[6].html" class="a">Structure of an HTML Page</a><br>
+
+            <h2 class="h21">CSS</h2>
+
+            <a href="lesson[7].html" class="a">Intro to CSS</a><br>
+            <a href="lesson[8].html" class="a">Coding with Style</a><br>
+            <a href="lesson[9].html" class="a">Adding CSS to the Page</a><br>
+            <a href="lesson[10].html" class="a">Body Styles</a><br>
+            <a href="lesson[11].html" class="a">Changing the Font</a><br>
+            <a href="lesson[12].html" class="a">Classes and IDs</a><br>
+            <a href="lesson[13].html" class="a">Border, Margin, and Padding</a><br>
+            <a href="lesson[14].html" class="a">Side by Side Divs</a><br>
+            <a href="lesson[15].html" class="a">Putting it All Together</a><br>
+
+            <h2 class="h21">Appedix</h2>
+
+            <a href="lesson[16].html" class="a">Color Codes Explained</a><br>
+        </nav>
+    </body>
+</html>
